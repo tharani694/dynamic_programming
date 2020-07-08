@@ -20,7 +20,7 @@ public class equalSumPartition{
         if(sum%2 !=0){
             return false;
         }else{
-            return subSetSum(arr,sum,n);
+            return subSetSum(arr,sum/2,n);
         }
     }
 
